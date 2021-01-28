@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   	<style>
+    	body{
+    		background-image: url("https://comrad.co.nz/wp-content/uploads/2019/08/Contact-form-background.jpg");
+    		background-repeat: no-repeat;
+		}
+		.form{
+    		text-align: center;
+    		color: blanchedalmond;
+		}
+		.table{
+    		background-color: rgba(0, 0, 0, 0.5);
+    		border-radius: 25px;
+    		margin-left: auto;
+    		margin-right: auto;
+    		margin-top: 100px;
+    		box-shadow: 10px 10px rgb(48, 46, 46)
+		}
+		.submit{
+    		position: absolute;
+    		color: red;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="RegistrationForm" method="post">
+                <h1>Registration Form</h1>
+                <table class="table" cellspacing="20px" cellpadding="20px">
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" placeholder="Enter Your First Name" required name="firstname"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Middle Name</td>
+                        <td><input type="text" placeholder="Enter Your Middle Name" name="middlename"></td>
+                    </tr>
+                   
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" placeholder="Enter Your Last Name" required name="lastname"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" placeholder="example@gmail.com" required name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" placeholder="Enter your Phone" required name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" placeholder="Enter Your password" required name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="submit"><input type="submit" value="Register" name="submit"></td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

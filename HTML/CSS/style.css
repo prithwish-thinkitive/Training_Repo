@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/246/312/original/mountain-lake-sunset-landscape-first-person-view.jpg");
+    background-size: cover;
+}
+
+.title:hover{
+    color:blue;
+}
+/* #google-link:link{
+    color:blue;
+}
+#google-link:visited{
+    color:red;
+} */
+/* h1 + a{
+    color: green;
+}
+tr a{
+    color: palevioletred;
+} */
